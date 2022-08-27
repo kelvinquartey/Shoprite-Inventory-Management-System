@@ -36,7 +36,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.buttonManageUsers = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonManageProducts = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxShopriteLogo)).BeginInit();
             this.SuspendLayout();
@@ -118,28 +118,28 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button3
+            // buttonManageProducts
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(509, 453);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 163);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "MANAGE PRODUCTS";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.buttonManageProducts.BackColor = System.Drawing.Color.Red;
+            this.buttonManageProducts.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonManageProducts.BackgroundImage")));
+            this.buttonManageProducts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonManageProducts.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonManageProducts.ForeColor = System.Drawing.Color.Black;
+            this.buttonManageProducts.Location = new System.Drawing.Point(509, 453);
+            this.buttonManageProducts.Name = "buttonManageProducts";
+            this.buttonManageProducts.Size = new System.Drawing.Size(187, 163);
+            this.buttonManageProducts.TabIndex = 6;
+            this.buttonManageProducts.Text = "MANAGE PRODUCTS";
+            this.buttonManageProducts.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonManageProducts.UseVisualStyleBackColor = false;
+            this.buttonManageProducts.Click += new System.EventHandler(this.button3_Click);
             // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1190, 671);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.buttonManageProducts);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.buttonManageUsers);
             this.Controls.Add(this.button1);
@@ -162,6 +162,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonManageUsers;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonManageProducts;
     }
 }

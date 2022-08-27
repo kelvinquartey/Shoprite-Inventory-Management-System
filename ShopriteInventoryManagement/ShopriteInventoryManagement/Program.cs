@@ -16,7 +16,7 @@ namespace ShopriteInventoryManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LandingForm());
+            Application.Run(new ManageUsers());
         }
     }
 }

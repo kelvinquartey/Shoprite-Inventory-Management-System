@@ -34,21 +34,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBoxShopriteLogo = new System.Windows.Forms.PictureBox();
+            this.buttonLogOut = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxShopriteLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonTill
             // 
-            this.buttonTill.BackColor = System.Drawing.Color.Red;
+            this.buttonTill.BackColor = System.Drawing.Color.Orange;
             this.buttonTill.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTill.ForeColor = System.Drawing.Color.White;
-            this.buttonTill.Location = new System.Drawing.Point(285, 437);
+            this.buttonTill.Location = new System.Drawing.Point(299, 412);
             this.buttonTill.Name = "buttonTill";
-            this.buttonTill.Size = new System.Drawing.Size(156, 67);
+            this.buttonTill.Size = new System.Drawing.Size(190, 74);
             this.buttonTill.TabIndex = 0;
             this.buttonTill.Text = "START TILL";
             this.buttonTill.UseVisualStyleBackColor = false;
+            this.buttonTill.Click += new System.EventHandler(this.buttonTill_Click);
             // 
             // label1
             // 
@@ -92,11 +94,24 @@
             this.pictureBoxShopriteLogo.TabIndex = 1;
             this.pictureBoxShopriteLogo.TabStop = false;
             // 
+            // buttonLogOut
+            // 
+            this.buttonLogOut.BackColor = System.Drawing.Color.Red;
+            this.buttonLogOut.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogOut.ForeColor = System.Drawing.Color.White;
+            this.buttonLogOut.Location = new System.Drawing.Point(549, 584);
+            this.buttonLogOut.Name = "buttonLogOut";
+            this.buttonLogOut.Size = new System.Drawing.Size(124, 42);
+            this.buttonLogOut.TabIndex = 7;
+            this.buttonLogOut.Text = "LOGOUT";
+            this.buttonLogOut.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 671);
+            this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonTill);
@@ -117,5 +132,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBoxShopriteLogo;
+        private System.Windows.Forms.Button buttonLogOut;
     }
 }

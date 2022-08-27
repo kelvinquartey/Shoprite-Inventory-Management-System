@@ -121,7 +121,7 @@
   <data name="pictureBoxShopriteLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAA0CAYAAADIZmusAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAChFJREFUaEPtWgt3VNUV7k8ptvJQIDwCGBCjyPslWAStVFSwiFAeRaEor9IqVGwr
+        vAAADrwBlbxySQAAChFJREFUaEPtWgt3VNUV7k8ptvJQIDwCGBCjyPslWAStVFSwiFAeRaEor9IqVGwr
         FQQLFWplQUUUQaSgLQtFLYRkkklmMnnMJENmAnmR1ySTySTz9dtn7pncO5kkAyRrFdq91l73nHvP2Xt/
         57H3PmfmB8FgEHcD311AQqEQ2tvb70huaWnpANLa2oo7lWQS/seARCJGwSCpa26PIBJsQfuNWoSvliFU
         VIxgpg2NF79F4zffIuwvN9oCLfkF6l3T95cQcroQKnarPm3VNYgEAkBrONpWk7ksFF836OaAaCF8RhoD
@@ -167,13 +167,37 @@
         6G7g/wP57+Ig/gMTunMc5JObyAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>146, 17</value>
   </metadata>
   <data name="buttonEdit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAABOxJREFUaEPtWksodW0UPu63GKDEgORSCClG5DpQrokJEiJlIAbuoRhQRmZSSq65
+        vwAADr8BOAVTJAAABOxJREFUaEPtWksodW0UPu63GKDEgORSCClG5DpQrokJEiJlIAbuoRhQRmZSSq65
         JRnIRMwwQUQMEOWWXHK/r6/n/fc5/ed47X32sff59fc99fSVc9511rPfd613rbU/Df1PYJKQ8/Nzmpqa
         ovr6ekpLS6O4uDjKysqixsZGmpmZoevra+Gb5oMsIZeXl9TW1kYeHh5kZWVFGo3mC62trcnb25t6enro
         /v5eWKk+jBayt7dHkZGRZGlpyRVgSAhKTk6mo6MjwYK6MErIyckJhYSEcB2WYkREBF1cXAiW1IOkkLu7
@@ -197,10 +221,13 @@
         lRXuEMFU/CdHS3kQ/QGkULYExW93hwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="toolTip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>275, 17</value>
+  </metadata>
   <data name="buttonDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAABx9JREFUaEPNWmtMFFcUVkBY2OVRl7dAfYCIWFTAiiiaGm2gibpqE5uIEalaRSCR
+        vwAADr8BOAVTJAAABx9JREFUaEPNWmtMFFcUVkBY2OVRl7dAfYCIWFTAiiiaGm2gibpqE5uIEalaRSCR
         Jlb+GGOMoVQbIxgtBHxWGoH4LjEiJj5iQI1GSARfPzS+3+/X6ul8l5llYe4ys8uM9UvOj525c/Z89557
         5pxzpxe5gNevX1NdXR0tXPgLJY5MpEBzIHl6elF4WDiNG5dGBQUFdPbsWbJareIT+sMpIh8/fqQjR45Q
         QsJw8nDvQ717uTkUL4GYZZqFWltbxaf1hWoiIFFSUkq+Jj+u4Txx6+1GIcEhVF9fT58+fRI16QPVRKqq
@@ -233,16 +260,13 @@
         gFFI2ffs2UPLlv1GE4Q3PDYxUnR8A5aVlcUOX1EZWp1q5BH9B+d5QIOToD8/AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="toolTip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>275, 17</value>
-  </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="buttonAddUser.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAABRFJREFUaEPtWVkoZm8cto2dkSzZLsSNTMMNkSUGZR2URuICN3NhubFdWEsIUWoU
+        vgAADr4B6kKxwAAABRFJREFUaEPtWVkoZm8cto2dkSzZLsSNTMMNkSUGZR2URuICN3NhubFdWEsIUWoU
         k6UIiaImbuwuRlEkFyRlG0u2JoSx/abn7Xz+mPMdn3OO4T956qlz3u+c9/yec97f8v4+NfpH8CrkpeFV
         yEvDq5DbuL6+puXlZWppaaH4+Hh69+4dubi4UEJCAhtbXV3lrnw6SBZydHRERUVFZGpqShoaGqSmpnaH
         6urq7LfKyko6OTnh7pIfkoRARFhYGK+A+9TS0qKYmBg6PDzk7pYXkoSkpaWxN85nOB8hOD09nS1FuSFa
@@ -272,5 +296,8 @@
   </metadata>
   <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>146, 17</value>
+  </metadata>
+  <metadata name="toolTip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>275, 17</value>
   </metadata>
 </root>

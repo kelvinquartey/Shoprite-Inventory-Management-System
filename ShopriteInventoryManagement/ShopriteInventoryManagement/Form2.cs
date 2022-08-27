@@ -16,5 +16,12 @@ namespace ShopriteInventoryManagement
         {
             InitializeComponent();
         }
+
+        private void buttonTill_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 af = new Form3();
+            af.ShowDialog();
+        }
     }
 }

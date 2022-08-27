@@ -33,6 +33,8 @@
             this.labelLoginFirst = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioBtnAdmin = new System.Windows.Forms.RadioButton();
+            this.radioBtnAttendant = new System.Windows.Forms.RadioButton();
             this.btnClear = new System.Windows.Forms.Button();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.textBoxUsername = new System.Windows.Forms.TextBox();
@@ -41,8 +43,6 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioBtnAttendant = new System.Windows.Forms.RadioButton();
-            this.radioBtnAdmin = new System.Windows.Forms.RadioButton();
             this.login.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -54,7 +54,7 @@
             this.login.Controls.Add(this.labelLoginFirst);
             this.login.Controls.Add(this.pictureBox1);
             this.login.Controls.Add(this.groupBox1);
-            this.login.Location = new System.Drawing.Point(364, 12);
+            this.login.Location = new System.Drawing.Point(75, 12);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(509, 630);
             this.login.TabIndex = 0;
@@ -100,15 +100,38 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // radioBtnAdmin
+            // 
+            this.radioBtnAdmin.AutoSize = true;
+            this.radioBtnAdmin.Location = new System.Drawing.Point(348, 211);
+            this.radioBtnAdmin.Name = "radioBtnAdmin";
+            this.radioBtnAdmin.Size = new System.Drawing.Size(90, 28);
+            this.radioBtnAdmin.TabIndex = 12;
+            this.radioBtnAdmin.TabStop = true;
+            this.radioBtnAdmin.Text = "Admin";
+            this.radioBtnAdmin.UseVisualStyleBackColor = true;
+            // 
+            // radioBtnAttendant
+            // 
+            this.radioBtnAttendant.AutoSize = true;
+            this.radioBtnAttendant.Location = new System.Drawing.Point(0, 211);
+            this.radioBtnAttendant.Name = "radioBtnAttendant";
+            this.radioBtnAttendant.Size = new System.Drawing.Size(119, 28);
+            this.radioBtnAttendant.TabIndex = 11;
+            this.radioBtnAttendant.TabStop = true;
+            this.radioBtnAttendant.Text = "Attendant";
+            this.radioBtnAttendant.UseVisualStyleBackColor = true;
+            // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnClear.ForeColor = System.Drawing.Color.Brown;
             this.btnClear.Location = new System.Drawing.Point(114, 158);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(96, 35);
             this.btnClear.TabIndex = 10;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // textBoxPassword
@@ -185,28 +208,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Username:";
             // 
-            // radioBtnAttendant
-            // 
-            this.radioBtnAttendant.AutoSize = true;
-            this.radioBtnAttendant.Location = new System.Drawing.Point(0, 211);
-            this.radioBtnAttendant.Name = "radioBtnAttendant";
-            this.radioBtnAttendant.Size = new System.Drawing.Size(119, 28);
-            this.radioBtnAttendant.TabIndex = 11;
-            this.radioBtnAttendant.TabStop = true;
-            this.radioBtnAttendant.Text = "Attendant";
-            this.radioBtnAttendant.UseVisualStyleBackColor = true;
-            // 
-            // radioBtnAdmin
-            // 
-            this.radioBtnAdmin.AutoSize = true;
-            this.radioBtnAdmin.Location = new System.Drawing.Point(348, 211);
-            this.radioBtnAdmin.Name = "radioBtnAdmin";
-            this.radioBtnAdmin.Size = new System.Drawing.Size(90, 28);
-            this.radioBtnAdmin.TabIndex = 12;
-            this.radioBtnAdmin.TabStop = true;
-            this.radioBtnAdmin.Text = "Admin";
-            this.radioBtnAdmin.UseVisualStyleBackColor = true;
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -214,10 +215,11 @@
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1190, 671);
+            this.ClientSize = new System.Drawing.Size(706, 671);
             this.Controls.Add(this.login);
             this.DoubleBuffered = true;
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.login.ResumeLayout(false);
             this.login.PerformLayout();

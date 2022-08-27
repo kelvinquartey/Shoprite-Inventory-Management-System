@@ -29,9 +29,12 @@ namespace ShopriteInventoryManagement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            LoginForm lf = new LoginForm();
-            lf.ShowDialog();
+            if (MessageBox.Show("Are you sure you want to go Logout", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                LoginForm lf = new LoginForm();
+                lf.ShowDialog();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
